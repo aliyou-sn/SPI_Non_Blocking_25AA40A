@@ -171,7 +171,7 @@ int main(void)
 
 		  break;
 
-		// Wait for WIP bit to be cleared
+		// Wait for WIP bit to be cleared, If it is ready for another command
 		case 2:
 
 		  // Read status register
